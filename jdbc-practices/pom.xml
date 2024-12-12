@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.poscodx</groupId>
+    <artifactId>mariadb-practices</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>jdbc-practices</artifactId>
+  
+   
+  <properties>
+  	<project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
+  	<maven.compiler.source>21</maven.compiler.source>
+  	<maven.compiler.target>21</maven.compiler.target>
+  </properties>
+  
+  <dependencies>
+	<dependency>
+	  <groupId>org.mariadb.jdbc</groupId>
+	  <artifactId>mariadb-java-client</artifactId>
+	  <version>3.4.0</version>
+	</dependency>
+  </dependencies>
+  
+  <build>
+	<finalName>jdbc-practices</finalName>  	
+  </build>
+  
+</project>
