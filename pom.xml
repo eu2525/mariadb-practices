@@ -4,4 +4,7 @@
   <artifactId>mariadb-practices</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
+  <modules>
+  	<module>jdbc-practices</module>
+  </modules>
 </project>
