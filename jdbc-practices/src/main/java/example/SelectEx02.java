@@ -8,11 +8,9 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SelectEx02 {
-	
+public class SelectEx02 {	
 	public static void main(String[] args) {
-		List<DepartmentVo> ldv = search("팀");
-		
+		List<DepartmentVo> ldv = search("팀");		
 		for (DepartmentVo vo : ldv) {
 			System.out.println(vo);
 		}
@@ -53,7 +51,6 @@ public class SelectEx02 {
 			
 		} catch (ClassNotFoundException e) {
 			System.out.println("드라이버 로딩 실패:" + e);
-		
 		} catch (SQLException e) {
 			System.out.println("드라이버 로딩 실패:" + e);
 		} finally {
@@ -75,3 +72,4 @@ public class SelectEx02 {
 		return result;
 	}
 }
+
